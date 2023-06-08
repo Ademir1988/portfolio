@@ -10,6 +10,7 @@
    background: rgb(14, 13, 13); 
    height: 50px;
    padding: 0 1rem; 
+   box-shadow: 0 0 1rem 0 rgba(171, 166, 166, 0.2);
 }
 
 .icon{
