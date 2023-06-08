@@ -25,7 +25,7 @@ const router = createBrowserRouter([
         element: <Tecnologias />
       },
       {
-        path: 'sobre',
+        path: 'Sobre',
         element: <Sobre />
       },
       {

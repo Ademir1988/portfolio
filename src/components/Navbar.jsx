@@ -11,7 +11,7 @@ const Navbar = () => {
         
         <div className={styles.content}>
         <Link to='/' className={styles.link}>Home</Link>
-        <Link to='/Sobre' className={styles.link}>sobre</Link>
+        <Link to='/Sobre' className={styles.link}>Sobre</Link>
         <Link to='/Tecnologias' className={styles.link}>Tecnologias</Link>
         <Link to='/Projetos' className={styles.link}>Projetos</Link>
         <Link to='/Contact' className={styles.link}>Contatos</Link>
