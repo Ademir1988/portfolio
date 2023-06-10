@@ -1,0 +1,18 @@
+.content {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(14, 13, 13);
+    height: 51px;
+    text-align: justify;
+    
+}
+
+.content h3{
+    color: azure;
+    padding: 10px 0px;
+}
+
+.content p {
+    color: burlywood;
+    padding: 10px 0px;
+}
