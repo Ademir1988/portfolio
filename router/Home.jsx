@@ -15,10 +15,11 @@ const Home = () => {
 
           <button>
               <Link to='/Sobre'>Sobre</Link>
-          </button>
-          
+          </button>         
 
         </main>
+
+        
         <article>
           <h2>01</h2>          
           <a href="#">Currícolo</a>
