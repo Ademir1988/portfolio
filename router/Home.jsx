@@ -4,9 +4,9 @@ import styles from '../router/Home.module.css'
 const Home = () => {
   return (
     
-      <div className={styles.content}>
+      <div className={styles.conteiner}>
 
-        <main className={styles.home}>
+        <main className={styles.main}>
           <h1>Olá!</h1>
           <h2>Me chamo Ademir</h2>
           <p>Desevolvedor Front-end Junior</p>
