@@ -1,0 +1,22 @@
+[
+    {
+        "image":"../src/components/img/carrosel.JPG",
+        "tecnologia":"reactJs",
+        "link":"linkquebrado"
+    },
+    {
+        "image":"../src/components/img/landin-page-decoração.JPG",
+        "tecnologia":"Html Css",
+        "link":"há subir"
+    },
+    {
+        "image":"../src/components/img/landing-page-barbearia.JPG",
+        "tecnologia":"Html Css",
+        "link":"há subir"
+    },
+    {
+        "image":"../src/components/img/projeto-android.JPG",
+        "tecnologia":"Html Css",
+        "link":"https://ademir1988.github.io/projeto-android/"
+    }
+]
