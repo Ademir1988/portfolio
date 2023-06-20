@@ -7,15 +7,25 @@ const Projetos = () => {
    
     <div className={styles.Projetos_conteiner}>
         <main className={styles.Projetos_main}>
-          <h1>Projetos</h1>
+         
           
         {Proj.map((item)=>{
           const {image, tecnologia, link} =item
           return(
             <>
-              <img src={image}/> 
-              <p>feito com: {tecnologia}</p> 
-              <a href={link} target='_black'>link do projeto</a>
+            <div className={styles.projetos_item}>
+              <div className={styles.projetos_image}>
+                  <img src={image}/>
+              </div>
+              <div className={styles.projetos.info}>
+
+                <span>feito com:{tecnologia}</span>
+                <span>{link}</span>
+             { /*<p>feito com: {tecnologia}</p> 
+              <a href={link} target='_black'>link do projeto</a>*/}
+              </div>
+            </div>
+              
             </>
             
           )
@@ -24,10 +34,10 @@ const Projetos = () => {
          
         </main>
 
-        <article className={styles.Projetos_article}>
+       {/* <article className={styles.Projetos_article}>
           <h2>04</h2>          
           <a href="#">Currícolo</a>
-        </article>
+        </article>*/}
       </div>
       
   )
