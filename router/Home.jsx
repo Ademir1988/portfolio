@@ -23,7 +23,7 @@ const Home = () => {
         <article>
           <h2>01</h2>     
          <button className={styles.btn_curriculo}>
-            <a href="#">Currículo</a> 
+            <a href=" https://ademir1988.github.io/curriculo/" target='_black'>Currículo</a> 
                     
          </button>
               
