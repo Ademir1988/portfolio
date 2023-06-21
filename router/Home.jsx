@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { Link } from "react-router-dom";
 import styles from '../router/Home.module.css'
 
@@ -13,7 +12,7 @@ const Home = () => {
           <h2>Me chamo Ademir</h2>
           <p>Desevolvedor Front-end Junior</p>
 
-          <button>
+          <button className={styles.btn_sobre}>
               <Link to='/Sobre'>Sobre</Link>
           </button>      
           
@@ -22,8 +21,12 @@ const Home = () => {
 
         
         <article>
-          <h2>01</h2>          
-          <a href="#">Currícolo</a>
+          <h2>01</h2>     
+         <button className={styles.btn_curriculo}>
+            <a href="#">Currículo</a> 
+                    
+         </button>
+              
         </article>
 
 

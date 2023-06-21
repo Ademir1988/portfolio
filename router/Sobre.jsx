@@ -14,8 +14,10 @@ export default function Sobre(){
         </main>
 
         <article className={styles.Sobre_article}>
-          <h2>02</h2>          
-          <a href="#">Currícolo</a>
+          <h2>02</h2>   
+          <button className={styles.btn_curriculo}>
+              <a href="#">Currículo</a>        
+           </button>       
         </article>
       </div>
     )

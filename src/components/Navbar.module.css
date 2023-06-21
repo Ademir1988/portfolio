@@ -5,9 +5,10 @@
    align-items: center;
    justify-content: space-between;
    /*background: rgb(14, 13, 13); */
-   height: 70px;
-   padding: 0 1rem; 
+   height: 60px;
+   /* padding: 0 1rem;  */
    box-shadow: 0 0 1rem 0 rgba(239, 234, 234, 0.2);
+   
 }
 
 .icon{
@@ -22,15 +23,45 @@
    
 }
 .content .link {
-   color: var(--cor-link);
-}
-
-
-.link {
+  
    padding: 1rem;
-   color: rgb(189, 158, 82);
    text-decoration: none;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   font-weight: bolder;
-    
+   font-size: 16px;
+   color: #e1e1e1;
+   font-family: inherit;
+   font-weight: 800;
+   cursor: pointer;
+   position: relative;
+   border: none;
+   background: none;
+   text-transform: uppercase;
+   transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+   transition-duration: 400ms;
+   transition-property: color;
+
 }
+.content .link:focus,
+.content .link:hover {
+  color: #fff;
+}
+
+.content .link:focus:after,
+.content .link:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.content .link:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+

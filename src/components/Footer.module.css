@@ -4,13 +4,11 @@
     align-items: center;
     height: 51px;
     font-size: larger;
-    
+
 }
 
-.content a  {
+.content a {
     color: var(--cor-link)
 }
 
-.content a:hover {
-    color: aquamarine;
-}
+

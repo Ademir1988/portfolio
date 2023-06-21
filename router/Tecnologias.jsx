@@ -38,7 +38,9 @@ const Tecnologias = () => {
 
         <article className={styles.tecno_article}>
           <h2>03</h2>          
-          <a href="#">Currícolo</a>
+          <button className={styles.btn_curriculo}>
+            <a href="#">Currículo</a>
+            </button>
         </article>
       </div>
 

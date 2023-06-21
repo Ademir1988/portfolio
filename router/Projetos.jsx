@@ -21,12 +21,14 @@ const Projetos = () => {
               <div className={styles.projetos_info}>
 
                 <p className={styles.projetos_tecnologia}>{tecnologia}</p>
-                
+
+                <div className={styles.icone_ancora}>
                 <a href={link} target='_black'>
-                  
-                    <FiExternalLink/>
-                  
+                   <FiExternalLink/>                 
                   </a>
+
+                </div>
+                
                 
               </div>
             </div>
