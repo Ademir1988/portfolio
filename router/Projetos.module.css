@@ -1,4 +1,4 @@
-body {}
+
 
 .Projetos_conteiner {
     /*display: flex;
@@ -20,9 +20,10 @@ body {}
     background-image: url(../src/components/img/342303.JPG);
     width: 50%;    
     font-size: x-large;  
-    background-repeat: round;            
     text-align: center;
     padding-top: 0.1rem;      */
+    background-repeat: no-repeat;
+    background-size: cover;            
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;

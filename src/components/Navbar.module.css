@@ -1,5 +1,5 @@
 :root {
-   --cor-link: rgb(189, 158, 82);
+   --cor-link: #efefef;
 
 }
 
@@ -22,6 +22,10 @@
    display: flex;
    justify-content: space-around;
    
+   
+}
+.content .link {
+   color: var(--cor-link);
 }
 
 

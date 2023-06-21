@@ -1,15 +1,17 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	
+
 }
+
 body {
 	background-image: url(../src/components/img/342303.JPG);
-	background-repeat: round;
 	background-repeat: no-repeat;
 	background-size: cover;
+	
 }
-h2{
+
+h2 {
 	padding-left: 15px;
 }
