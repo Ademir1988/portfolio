@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../router/Projetos.module.css'
 import Proj from '../src/Projetos.json'
+import { FiExternalLink }from 'react-icons/Fi'
 
 const Projetos = () => {
   return (
@@ -17,12 +18,13 @@ const Projetos = () => {
               <div className={styles.projetos_image}>
                   <img src={image}/>
               </div>
-              <div className={styles.projetos.info}>
+              <div className={styles.projetos_info}>
 
-                <span>feito com:{tecnologia}</span>
-                <span>{link}</span>
-             { /*<p>feito com: {tecnologia}</p> 
-              <a href={link} target='_black'>link do projeto</a>*/}
+                <p className={styles.projetos_tecnologia}>{tecnologia}</p>
+                
+                <a href={link} target='_black'><FiExternalLink/></a>
+                {/*<span className={styles.projetos_link}>{link}</span>*/}
+             
               </div>
             </div>
               
