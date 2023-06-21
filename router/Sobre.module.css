@@ -30,7 +30,7 @@
 }
 
 .Sobre_article {
-    background-color: rgb(197, 173, 22);
+    background-color: var(--cor-de-fundo);
     width: 30%;
     display: flex;
     justify-content: space-between;  
@@ -46,7 +46,7 @@
     display: flex;
     justify-content: flex-start;
     font-size: xx-large;
-    color: black;
+    color: var(--cor-link);
     
 }
 

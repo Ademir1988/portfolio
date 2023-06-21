@@ -22,9 +22,12 @@ const Projetos = () => {
 
                 <p className={styles.projetos_tecnologia}>{tecnologia}</p>
                 
-                <a href={link} target='_black'><FiExternalLink/></a>
-                {/*<span className={styles.projetos_link}>{link}</span>*/}
-             
+                <a href={link} target='_black'>
+                  
+                    <FiExternalLink/>
+                  
+                  </a>
+                
               </div>
             </div>
               

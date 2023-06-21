@@ -1,18 +1,16 @@
 .content {
     display: flex;
     justify-content: space-evenly;
-   /* background-color: rgb(14, 13, 13);*/
+    align-items: center;
     height: 51px;
-    text-align: justify;
+    font-size: larger;
     
 }
 
-.content h3{
-    color: azure;
-    padding: 10px 0px;
+.content a  {
+    color: var(--cor-link)
 }
 
-.content p {
-    color: burlywood;
-    padding: 10px 0px;
+.content a:hover {
+    color: aquamarine;
 }

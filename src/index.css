@@ -2,8 +2,14 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-
+	
 }
+
+:root {
+	--cor-link: #c9d1d3;
+	--cor-de-fundo: #efefef52;
+ 
+ }
 
 body {
 	background-image: url(../src/components/img/342303.JPG);
@@ -14,4 +20,5 @@ body {
 
 h2 {
 	padding-left: 15px;
+	
 }

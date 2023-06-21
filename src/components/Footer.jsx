@@ -1,13 +1,15 @@
 import styles from '../components/Footer.module.css'
+import { BsLinkedin, BsInstagram, BsGithub, BsWhatsapp} from 'react-icons/Bs';
 
 export default function Footer(){
   return (
     <div className={styles.content}>
         
-        <h3>admir</h3>
-        <p>addawd</p>
-        <p>dwadwad</p>
-        <p>wdadwd</p>
+       <a href="#"><BsLinkedin /></a>
+       <a href="#"><BsInstagram /></a>
+       <a href="#">< BsGithub /></a>
+       <a href="#">< BsWhatsapp /></a>
+       
         
         
         

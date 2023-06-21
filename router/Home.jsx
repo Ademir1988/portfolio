@@ -15,7 +15,8 @@ const Home = () => {
 
           <button>
               <Link to='/Sobre'>Sobre</Link>
-          </button>         
+          </button>      
+          
 
         </main>
 
