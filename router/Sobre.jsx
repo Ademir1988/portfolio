@@ -1,5 +1,5 @@
 import styles from '../router/Sobre.module.css'
-
+import CurriculumButton from './CurriculumButton'
 
 export default function Sobre(){
  
@@ -13,12 +13,7 @@ export default function Sobre(){
 
         </main>
 
-        <article className={styles.Sobre_article}>
-          <h2>02</h2>   
-          <button className={styles.btn_curriculo}>
-              <a href="#">Currículo</a>        
-           </button>       
-        </article>
+        <CurriculumButton />
       </div>
     )
   }

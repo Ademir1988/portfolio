@@ -1,38 +1,29 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import styles from '../router/Home.module.css'
+import CurriculumButton from './CurriculumButton';
+
 
 const Home = () => {
-  return (
-    
-      <div className={styles.conteiner}>
+  return (         
+
+    <div className={styles.conteiner}>
+      
 
         <main className={styles.main}>
-          <h1>Olá!</h1>
-          <h2>Me chamo Ademir</h2>
-          <p>Desevolvedor Front-end Junior</p>
+               <h1>Olá!</h1>
+               <h2>Me chamo Ademir</h2>
+               <p>Desevolvedor Front-end Junior</p>
 
-          <button className={styles.btn_sobre}>
-              <Link to='/Sobre'>Sobre</Link>
-          </button>      
+               <button className={styles.btn_sobre}>
+                   <Link to='/Sobre'>Sobre</Link>
+               </button>               
+        </main> 
+
+       <CurriculumButton />     
+       
+  </div>  
           
-
-        </main>
-
-        
-        <article>
-          <h2>01</h2>     
-         <button className={styles.btn_curriculo}>
-            <a href=" https://ademir1988.github.io/curriculo/" target='_black'>Currículo</a> 
-                    
-         </button>
-              
-        </article>
-
-
-      </div>
-      
-      
       
       
   )

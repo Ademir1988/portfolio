@@ -19,8 +19,16 @@ body {
 	
 }
 
+h1, h2, p {
+    color: var(--cor-link);
+   
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 h2 {
 	padding-left: 15px;
+	padding-top: 15px;
 	
 }
 

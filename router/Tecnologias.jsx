@@ -1,4 +1,5 @@
 import styles from '../router/Tecnologias.module.css'
+import CurriculumButton from './CurriculumButton'
 
 import { SiReact , SiCss3, SiJavascript, SiHtml5 } from 'react-icons/Si';
 
@@ -36,12 +37,7 @@ const Tecnologias = () => {
 
         </main>
 
-        <article className={styles.tecno_article}>
-          <h2>03</h2>          
-          <button className={styles.btn_curriculo}>
-            <a href="#">Currículo</a>
-            </button>
-        </article>
+        <CurriculumButton />
       </div>
 
   )
