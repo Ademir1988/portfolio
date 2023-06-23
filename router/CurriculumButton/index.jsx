@@ -13,11 +13,7 @@ export default function CurriculumButton() {
                 <span class="button-text">
                     <a href="https://ademir1988.github.io/curriculo/" target='_black'>Currículo</a>
                     </span>
-            </button>
-            {/* <button className='btn_curriculo'>
-            <a href=" https://ademir1988.github.io/curriculo/" target='_black'>Currículo</a>  
-                    
-        </button> */}
+            </button>            
 
         </article>
     )
