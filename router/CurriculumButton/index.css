@@ -21,13 +21,14 @@ article h2 {
    
   font-size: xxx-large;
   color: rgb(50, 172, 243);
-
- 
+  
+  
   
 }
 
 article h2 svg {
   animation: loader 2s ease-in-out infinite;
+  /* animation: loader 8s ease-in-out infinite; */
   display: flex;
   justify-content: flex-end;
 
@@ -35,11 +36,11 @@ article h2 svg {
 
 @keyframes loader {
   0% {
-    rotate: 0deg;
+    transform: translate(-50%,50%) rotate(360deg);
   }
 
   100% {
-    rotate: 180deg;
+    transform: translate(-50%,50%) rotate(0deg);
   }
 }
 
