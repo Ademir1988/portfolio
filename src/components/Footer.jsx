@@ -14,8 +14,8 @@ export default function Footer() {
       <a href="https://github.com/Ademir1988?tab=repositories" target="_blank">
         < BsGithub />
       </a>
-      <a href="#" target="_blank">
-        < BsWhatsapp />
+      <a href="https://api.whatsapp.com/send?phone=5521993209038" target="_blank">
+        < BsWhatsapp /> 
       </a>
 
 

@@ -11,4 +11,6 @@
     color: var(--cor-link)
 }
 
-
+.content p{
+    display: inline-block;
+}
