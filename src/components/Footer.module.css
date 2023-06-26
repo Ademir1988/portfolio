@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 51px;
+    height: 62px;
     font-size: larger;
+    background-color: #00000080;
 
 }
 
