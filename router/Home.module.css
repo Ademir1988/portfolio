@@ -40,8 +40,7 @@ main p {
     font-family: monospace;
     font-size: 1.5rem;
     color: #FAFAFA;
-    text-transform: uppercase;
-    padding: 10px 20px;
+    text-transform: uppercase;    
     border-radius: 10px;
     border: 2px solid #FAFAFA;
     background: #252525;
@@ -56,8 +55,10 @@ main p {
   }
 
   .btn_sobre a {
+    display: block;
     text-decoration: none;
     color: var(--cor-link);
+    padding: 10px 20px;
   }
   
  

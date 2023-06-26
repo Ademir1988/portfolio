@@ -13,26 +13,17 @@ const Tecnologias = () => {
           
           <div className={styles.content}>
 
-              <div className={styles.HtmlIcon}>
-                <SiHtml5 />
-                <h3>Html</h3>
-              </div>
 
-              <div className={styles.CssIcon}>
-                <SiCss3/>
-                <h3>Css</h3>
-              </div>
+            <ul>
+              <div className="htmlIcon">
+                <li><SiHtml5 /> Html</li>
 
-              <div className={styles.JavascriptIcon}>
-                <SiJavascript />
-                <h3>JavaScript</h3>
               </div>
-
-              <div className={styles.reactIcon}>
-                <SiReact />
-                <h3>Reactjs</h3>
-              </div>
-
+              <li><SiCss3/>  Css</li>
+              <li><SiJavascript /> JavaScript</li>
+              <li><SiReact /> React</li>
+            </ul>           
+  
           </div>      
 
         </main>
