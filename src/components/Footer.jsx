@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className={styles.content}>
 
-      <a href="#" target="_blank">
+      <a href="https://www.linkedin.com/in/ademir-silva-a20294274" target="_blank">
           <BsLinkedin />        
         </a>
       <a href="https://www.instagram.com/ademir_0000/?hl=pt-br" target="_blank">
