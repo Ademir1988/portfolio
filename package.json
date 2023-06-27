@@ -1,6 +1,5 @@
 {
-  
-  "homepage":" https://ademir1988.github.io/portfolio",
+  "homepage": " https://ademir1988.github.io/portfolio",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -11,7 +10,6 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-    
   },
   "dependencies": {
     "react": "^18.2.0",
