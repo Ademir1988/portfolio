@@ -18,5 +18,10 @@
         "image":"../src/components/img/projeto-android.JPG",
         "tecnologia":"Html Css",
         "link":"https://ademir1988.github.io/projeto-android/"
+    },
+    {
+        "image":"../src/components/img/lista-tarefa.JPG",
+        "tecnologia":"Html Css javaScript",
+        "link":" https://ademir1988.github.io/todo_list/"
     }
 ]

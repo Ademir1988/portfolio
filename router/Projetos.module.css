@@ -28,9 +28,13 @@
     overflow-x: auto;
     scroll-behavior: smooth;
     width: 100%;
-    height: 80vh;
+    height: 73vh;
     padding-bottom: 80px;
 
+}
+
+.Projetos_main::-webkit-scrollbar{
+    display: none;
 }
 
 .Projetos_main .projetos_item {
@@ -67,4 +71,15 @@
     color: white;
 }
 
+.buttons {
+    color: aliceblue;    
+    text-align: center;   
+   font-size: xx-large;
+   width: 100%;
+}
+.buttons button {
+    color: var(--cor-link);
+    cursor: pointer;
+    margin-right: 10px;
+}
 

@@ -11,6 +11,7 @@ import Projetos from '../router/Projetos'
 import Sobre from '../router/Sobre'
 
 const router = createBrowserRouter([
+
   {
     path: '/',
     element: <App />,
@@ -28,17 +29,20 @@ const router = createBrowserRouter([
         element: <Sobre />
       },
       {
-        path:'projetos',
+        path: 'projetos',
         element: <Projetos />
-      }        
-            
+      }
     ]
   },
-  
+
+
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>    
-      <RouterProvider router={router} />    
+  <React.StrictMode>
+
+    <RouterProvider router={router} />
+
+
   </React.StrictMode>,
 )

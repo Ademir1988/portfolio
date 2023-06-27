@@ -1,13 +1,31 @@
 import React from 'react'
 import styles from '../router/Projetos.module.css'
 import Proj from '../src/Projetos.json'
+import { useRef } from 'react'
 import { FiExternalLink }from 'react-icons/Fi'
+import { BiChevronLeftCircle, BiChevronRightCircle } from 'react-icons/Bi'
 
 const Projetos = () => {
+
+  const carrosel = useRef(null);
+
+  const handleLeftClick = (e) => {
+    e.preventDefault();
+    carrosel.current.scrollLeft -= carrosel.current.offsetWidth;
+  };
+
+  const handleRightClick = (e) => {
+    e.preventDefault();
+    carrosel.current.scrollLeft += carrosel.current.offsetWidth;
+  };
+
+
+
   return (
+    <>
    
     <div className={styles.Projetos_conteiner}>
-        <main className={styles.Projetos_main}>
+        <main className={styles.Projetos_main} ref={carrosel} >
          
           
         {Proj.map((item)=>{
@@ -26,27 +44,34 @@ const Projetos = () => {
                 <a href={link} target='_black'>
                    <FiExternalLink/>                 
                   </a>
-
-                </div>
-                
-                
+                </div>              
               </div>
+
+
             </div>
+                
               
             </>
             
-          )
-        })}
+            )
+          })}         
           
          
-        </main>
+        </main>      
+        
 
-       {/* <article className={styles.Projetos_article}>
-          <h2>04</h2>          
-          <a href="#">Currícolo</a>
-        </article>*/}
-      </div>
       
+      </div>
+      <div className={styles.buttons}>
+                  <button onClick={handleLeftClick}>
+                     <BiChevronLeftCircle/> 
+                  </button>
+                  <button onClick={handleRightClick}>
+                      <BiChevronRightCircle/>
+                  </button>
+           </div>
+          
+      </>
   )
 }
 
