@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
 
-import { createBrowserRouter, RouterProvider, HashRouter } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import Home from '../router/Home'
 import Tecnologias from '../router/Tecnologias'
@@ -34,10 +34,10 @@ const router = createBrowserRouter([
       },
       { 
         path: '/portfolio',
-        element: <Home/> 
+        element: <Home/>
       },
       { basename: "/portfolio" }
-      
+
     ]
   },
 
