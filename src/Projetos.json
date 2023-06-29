@@ -1,27 +1,27 @@
 [
     {
         "image":"../src/components/img/carrosel.JPG",
-        "tecnologia":"reactJs",
-        "link":"linkquebrado"
+        "description":"Carousel",
+        "link":"https://ademir1988.github.io/CarroselTenis/"
     },
     {
         "image":"../src/components/img/landin-page-decoração.JPG",
-        "tecnologia":"Html Css",
+        "description":"Site Decoração",
         "link":"há subir"
     },
     {
         "image":"../src/components/img/landing-page-barbearia.JPG",
-        "tecnologia":"Html Css",
+        "description":"Site Barbearia",
         "link":"há subir"
     },
     {
         "image":"../src/components/img/projeto-android.JPG",
-        "tecnologia":"Html Css",
+        "description":"Projeto Android",
         "link":"https://ademir1988.github.io/projeto-android/"
     },
     {
         "image":"../src/components/img/lista-tarefa.JPG",
-        "tecnologia":"Html Css javaScript",
+        "description":"lista de tarefas",
         "link":" https://ademir1988.github.io/todo_list/"
     }
 ]

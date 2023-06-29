@@ -29,7 +29,7 @@ const Projetos = () => {
          
           
         {Proj.map((item)=>{
-          const {image, tecnologia, link} =item
+          const {image, description, link} =item
           return(
             <>
             <div className={styles.projetos_item}>
@@ -38,7 +38,7 @@ const Projetos = () => {
               </div>
               <div className={styles.projetos_info}>
 
-                <p className={styles.projetos_tecnologia}>{tecnologia}</p>
+                <p className={styles.projetos_tecnologia}>{description}</p>
 
                 <div className={styles.icone_ancora}>
                 <a href={link} target='_black'>
