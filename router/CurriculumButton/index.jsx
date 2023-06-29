@@ -6,11 +6,11 @@ export default function CurriculumButton() {
         <article>
             <h2><SiReact /></h2>
 
-            <button class="learn-more">
-                <span class="circle" aria-hidden="true">
-                    <span class="icon arrow"></span>
+            <button className="learn-more">
+                <span className="circle" aria-hidden="true">
+                    <span className="icon arrow"></span>
                 </span>                
-                <span class="button-text">
+                <span className="button-text">
                     <a href="https://ademir1988.github.io/curriculo/" target='_black'>Currículo</a>
                     </span>
             </button>            
