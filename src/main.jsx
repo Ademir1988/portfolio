@@ -1,8 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
+import '../src/index.css'
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider, HashRouter } from 'react-router-dom'
 
 import Home from '../router/Home'
 import Tecnologias from '../router/Tecnologias'
@@ -45,10 +46,10 @@ const router = createBrowserRouter([
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    
-      <RouterProvider router={router} />
-       
+  <React.StrictMode> 
+    <HashRouter>
+        <RouterProvider router={router} />       
+      </HashRouter>   
   </React.StrictMode>
 
 
