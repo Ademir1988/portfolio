@@ -29,12 +29,12 @@ const Projetos = () => {
          
           
         {Proj.map((item)=>{
-          const {image, description, link} =item
+          const {image, description, link, id} =item
           return(
             <>
-            <div className={styles.projetos_item}>
+            <div className={styles.projetos_item} >
               <div className={styles.projetos_image}>
-                  <img src={image}/>
+                  <img src={image} />
               </div>
               <div className={styles.projetos_info}>
 

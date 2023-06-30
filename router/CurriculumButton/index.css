@@ -27,7 +27,8 @@ article h2 {
 }
 
 article h2 svg {
-  animation: loader 2s ease-in-out infinite;
+  /* animation: logo-spin infinite 20s linear; */
+  animation: loader infinite 2s linear;
   /* animation: loader 8s ease-in-out infinite; */
   display: flex;
   justify-content: flex-end;
