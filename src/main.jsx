@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import '../src/index.css'
 
-import { createBrowserRouter, RouterProvider, HashRouter } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider, HashRouter,BrowserRouter } from 'react-router-dom'
 
 import Home from '../router/Home'
 import Tecnologias from '../router/Tecnologias'
