@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import '../src/index.css'
 
-import { createBrowserRouter, RouterProvider, HashRouter,BrowserRouter } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import Home from '../router/Home'
 import Tecnologias from '../router/Tecnologias'
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />,
-        
+
       },
       {
         path: '/tecnologias',
@@ -35,19 +35,22 @@ const router = createBrowserRouter([
         path: '/projetos',
         element: <Projetos />
       },
-      
-      
-      
+
+
+
     ]
   },
 
- 
+
 
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>     
-        <RouterProvider router={router} />              
+  <React.StrictMode>
+    <RouterProvider router={router} basename={'https://ademir1988.github.io/portfolio'}>
+      <App/>
+    </RouterProvider>
+
   </React.StrictMode>
 
 
