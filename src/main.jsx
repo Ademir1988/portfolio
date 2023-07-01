@@ -11,12 +11,12 @@ import Projetos from '../router/Projetos'
 import Sobre from '../router/Sobre'
 
 
-
 const router = createBrowserRouter([
   
   {
     path: '/',
     element: <App />,
+    basename:'/portfolio',
     children: [
       {
         path: '/',
