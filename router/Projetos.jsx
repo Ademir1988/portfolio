@@ -34,14 +34,14 @@ const Projetos = () => {
             <>
             <div className={styles.projetos_item} >
               <div className={styles.projetos_image}>
-                  <img src={image} />
+                  <img key={item.id} src={image} />
               </div>
               <div className={styles.projetos_info}>
 
                 <p className={styles.projetos_tecnologia}>{description}</p>
 
                 <div className={styles.icone_ancora}>
-                <a href={link} target='_black'>
+                <a key={item.id} href={link} target='_black'>
                    <FiExternalLink/>                 
                   </a>
                 </div>              
