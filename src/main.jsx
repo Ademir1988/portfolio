@@ -47,7 +47,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} basename={'https://ademir1988.github.io/portfolio'}>
+    <RouterProvider router={router} basename='/portfolio'>
       <App/>
     </RouterProvider>
 
