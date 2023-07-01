@@ -24,15 +24,15 @@ const router = createBrowserRouter([
         
       },
       {
-        path: 'tecnologias',
+        path: '/tecnologias',
         element: <Tecnologias />
       },
       {
-        path: 'Sobre',
+        path: '/Sobre',
         element: <Sobre />
       },
       {
-        path: 'projetos',
+        path: '/projetos',
         element: <Projetos />
       },
       
@@ -46,10 +46,8 @@ const router = createBrowserRouter([
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode> 
-    <BrowserRouter basename='/portfolio'>
-        <RouterProvider router={router} />       
-    </BrowserRouter>        
+  <React.StrictMode>     
+        <RouterProvider router={router} />              
   </React.StrictMode>
 
 
