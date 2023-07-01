@@ -22,6 +22,7 @@ const Tecnologias = () => {
               <li><SiCss3/>  Css</li>
               <li><SiJavascript /> JavaScript</li>
               <li><SiReact /> React</li>
+              
             </ul>           
   
           </div>      
