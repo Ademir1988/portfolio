@@ -31,17 +31,17 @@ const Projetos = () => {
         {Proj.map((item)=>{
           const {image, description, link, id} =item
           return(
-            <>
-            <div className={styles.projetos_item} >
+            
+            <div  className={styles.projetos_item} key={id} >
               <div className={styles.projetos_image}>
-                  <img key={item.id} src={image} />
+                  <img  src={image} />
               </div>
               <div className={styles.projetos_info}>
 
-                <p className={styles.projetos_tecnologia}>{description}</p>
+                <p className={styles.projetos_tecnologia} >{description}</p>
 
                 <div className={styles.icone_ancora}>
-                <a key={item.id} href={link} target='_black'>
+                <a  href={link} target='_black'>
                    <FiExternalLink/>                 
                   </a>
                 </div>              
@@ -51,7 +51,7 @@ const Projetos = () => {
             </div>
                 
               
-            </>
+            
             
             )
           })}         
