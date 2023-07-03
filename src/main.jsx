@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 
 
-import { createBrowserRouter, RouterProvider, BrowserRouter,Routes,Route } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider, BrowserRouter,Routes,Route,HashRouter } from 'react-router-dom'
 
 import Home from '../router/Home'
 import Tecnologias from '../router/Tecnologias'
@@ -13,7 +13,7 @@ import Sobre from '../router/Sobre'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-  <BrowserRouter basename="/">
+  <BrowserRouter basename='portfolio'>  
   <Routes>
   <Route path="/" element={<App />}>
   <Route index element={<Home />} />
@@ -21,7 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <Route path="/sobre" element={<Sobre />} />
   <Route path="/projetos" element={<Projetos />} />
   </Route>
-  </Routes>
+  </Routes>  
   </BrowserRouter>
   </React.StrictMode>
   );
