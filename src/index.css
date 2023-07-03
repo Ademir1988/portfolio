@@ -5,6 +5,7 @@
 	
 }
 
+
 :root {
 	--cor-link: #c9d1d3;
 	--cor-de-fundo: #efefef52;
@@ -13,7 +14,7 @@
  }
 
 body {
-	background-image: url(../src/components/img/342303.JPG);  
+	background-image: url(../src/components/img/342303.JPG);   
 	background-repeat: no-repeat;
 	background-size: cover;
 	
