@@ -25,7 +25,7 @@
     },
     {
         "id":"05",
-        "image":"../src/components/img/lista-tarefa.JPG",
+        "image":"../src/components/img/lista-tarefa.png",
         "description":"lista de tarefas",
         "link":" https://ademir1988.github.io/todo_list/"
     }
