@@ -13,7 +13,7 @@ import Sobre from '../router/Sobre'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-  <HashRouter basename='/portfolio'>  
+  <HashRouter basename='/'>  
   <Routes>
   <Route path="/" element={<App />}>
   <Route index element={<Home />} />
