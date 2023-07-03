@@ -13,7 +13,7 @@ import Sobre from '../router/Sobre'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-  <BrowserRouter basename='portfolio'>  
+  <BrowserRouter basename='/portfolio/'>  
   <Routes>
   <Route path="/" element={<App />}>
   <Route index element={<Home />} />
