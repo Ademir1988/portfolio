@@ -13,7 +13,7 @@ import Sobre from '../router/Sobre'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-  <BrowserRouter basename='/'>  
+  <HashRouter basename='/'>  
   <Routes>
   <Route path="/" element={<App />}>
   <Route index element={<Home />} />
@@ -22,6 +22,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <Route path="/projetos" element={<Projetos />} />
   </Route>
   </Routes>  
-  </BrowserRouter>
+  </HashRouter>
   </React.StrictMode>
   );
