@@ -5,7 +5,7 @@ import { HiOutlineCode } from "react-icons/hi";
 const Navbar = () => {
   return (
 
-    <header>
+    <header>      
       <nav className={styles.navbar}>
         <h3 className={styles.icon}><HiOutlineCode/></h3>
         
@@ -21,6 +21,7 @@ const Navbar = () => {
         
        
       </nav>
+     
     </header>
   )
 }
