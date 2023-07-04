@@ -13,19 +13,19 @@
     },
     {
         "id":"03",
-        "image":"../src/components/img/landing-page-barbearia.JPG",
+        "image":"/src/components/img/landing-page-barbearia.JPG",
         "description":"Site Barbearia",
         "link":"há subir"
     },
     {
         "id":"04",
-        "image":"./components/img/projeto-android.JPG",
+        "image":"src/components/img/projeto-android.JPG",
         "description":"Projeto Android",
         "link":"https://ademir1988.github.io/projeto-android/"
     },
     {
         "id":"05",
-        "image":"src/components/img/lista-tarefa.JPG",
+        "image":"../portfolio/src/components/img/lista-tarefa.jpg",
         "description":"lista de tarefas",
         "link":" https://ademir1988.github.io/todo_list/"
     }
