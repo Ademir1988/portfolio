@@ -13,7 +13,7 @@
     },
     {
         "id":"03",
-        "image":"/src/components/img/landing-page-barbearia.JPG",
+        "image":"../src/components/img/landing-page-barbearia.JPG",
         "description":"Site Barbearia",
         "link":"há subir"
     },
