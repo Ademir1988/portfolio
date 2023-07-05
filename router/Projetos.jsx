@@ -34,7 +34,8 @@ const Projetos = () => {
             
             <div  className={styles.projetos_item} key={id} >
               <div className={styles.projetos_image}>
-                  <img  src={image} />
+                  <img  src={image} alt='imagens-projetos'/>
+                  
               </div>
               <div className={styles.projetos_info}>
 
