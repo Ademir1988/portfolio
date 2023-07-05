@@ -9,14 +9,12 @@
 :root {
 	--cor-link: #c9d1d3;
 	--cor-de-fundo: #efefef52;
-	--BG:rgb(2,0,36);
-	--BG-ground:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 44%, rgba(0,212,255,1) 100%);
+	
 	
  }
 
 body {
-	background: var(--BG);
-	background: var(--BG-ground);   
+	background-image: url(../src/components/img/342303.JPG);   
 	background-repeat: no-repeat;
 	background-size: cover;
 	
