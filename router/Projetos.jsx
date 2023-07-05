@@ -34,7 +34,7 @@ const Projetos = () => {
             
             <div  className={styles.projetos_item} key={id} >
               <div className={styles.projetos_image}>
-                  <img  src={image} alt='imagem-projeto'/>
+                  <img  src='../src/components/img/carrosel.JPG' alt='imagem-projeto'/>
                   
                   
               </div>

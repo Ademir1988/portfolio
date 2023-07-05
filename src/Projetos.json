@@ -1,7 +1,7 @@
 [
     {
         "id": "01",
-        "image":"/....src/components/img/carrosel.JPG",
+        "image":"../src/components/img/carrosel.JPG",
         "description":"Carousel",
         "link":"https://ademir1988.github.io/CarroselTenis/"
     },
