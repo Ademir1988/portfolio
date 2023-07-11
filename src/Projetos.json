@@ -1,7 +1,7 @@
 [
     {
         "id": "01",
-        "image":"../components/img/carrosel.JPG",
+        "image":"./src/components/img/carrosel.JPG",
         "description":"Carousel",
         "link":"https://ademir1988.github.io/CarroselTenis/"
     },
@@ -9,7 +9,7 @@
         "id":"02",
         "image":"/src/components/img/landin-page-decoração.JPG",
         "description":"Site Decoração",
-        "link":"há subir"
+        "link":"https://ademir1988.github.io/Landing_Page_Deco/"
     },
     {
         "id":"03",
