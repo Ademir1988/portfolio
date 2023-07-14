@@ -1,7 +1,7 @@
 import styles from '../router/Tecnologias.module.css'
 import CurriculumButton from './CurriculumButton'
 
-import { SiReact, SiCss3, SiJavascript, SiHtml5, SiGit } from 'react-icons/Si';
+import { SiReact, SiCss3, SiJavascript, SiHtml5, SiGit, SiStyledcomponents } from 'react-icons/Si';
 
 
 
@@ -17,7 +17,7 @@ const Tecnologias = () => {
           <ul>
 
             <li><SiHtml5 /> Html</li>
-            <li><SiCss3 />  Css</li>
+            <li><SiCss3 />  Css / Styled-components</li>            
             <li><SiJavascript /> JavaScript</li>
             <li><SiReact /> React</li>
             <li><SiGit /> Git</li>
