@@ -4,6 +4,5 @@ foi usado nesse projeto:
 react-icons
 react-router-dom (que por sinal, deu uma dor de cabeça para fazer deploy)
 
-Ainda estou tentando decobrir o porque das imagem não carregarem em projetos
-
+Imagens importas do site <a href"https://pixabay.com/pt/">Pixabay</a> ,usadas em "Projetos" .
  
