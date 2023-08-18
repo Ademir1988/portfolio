@@ -13,7 +13,7 @@ const Home = () => {
         <main className={styles.main}>
                <h1>Olá!</h1>
                <h2>Me chamo Ademir</h2>
-               <p>Desenvolvedor Front-end Junior</p>
+               <p>Desenvolvedor Front-End</p>
 
                <button className={styles.btn_sobre}>
                    <Link to='/Sobre'>Sobre</Link>
